@@ -1,4 +1,5 @@
 setup.py
+nester/__init__.py
 nester/nester.py
 nester.egg-info/PKG-INFO
 nester.egg-info/SOURCES.txt
