@@ -10,9 +10,10 @@ print(data.readline(), end='')
 print(data.readline(), end='')
 #Saida::> Other Man: I've told you once.
 
-data
-
 for each_line in data:
-    print(each_line,end="")
+    (role, line_spoken) = each_line.split(':')
+    print(role, end='')
+    print(' said: ', end='')
+    print(line_spoken,end="")
 
 data.close()
