@@ -23,10 +23,12 @@ try:
     #out = open("data.out","w")
     man_data = open("man_data.txt", "w")
     other_data = open("other_data.txt", "w")
+
     print(man,file=man_data)
     print(other,file=other_data)
-    man_data.close()
-    other_data.close()
-
 except IOError:
     print("File Error.")
+
+finally:
+    man_data.close()
+    other_data.close()
