@@ -1,7 +1,7 @@
 import os
 os.chdir('E:/piton/Use_a_cabeca_python/use_a_cabeca_python/05_cap')
 
-#Vai substituir - e : por .
+#Vai substituir "-" e ":" por "."
 def sanitize (time_string):
     if '-' in time_string:
         splitter = '-'
@@ -20,7 +20,6 @@ def get_coach_data(filename):
     except IOError as ioerr:
         print("File error" + str(ioerr))
         return(None)
-    
 
 james = get_coach_data('james.txt')
 julie = get_coach_data("julie.txt") 
