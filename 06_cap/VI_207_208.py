@@ -1,4 +1,3 @@
-
 import os
 os.chdir("E:/piton/Use_a_cabeca_python/use_a_cabeca_python/06_cap")
 
